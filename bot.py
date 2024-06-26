@@ -7,12 +7,12 @@ import sys
 
 load_dotenv()
 
-BOT_NAME = os.getenv('BOT_NAME')
-COUNT = os.getenv('COUNT')
-REFER_ID = os.getenv('REFER_ID')
-DELAY_MIN = os.getenv('DELAY_MIN')
-DELAY_MAX = os.getenv('DELAY_MAX')
-CHANNEL_NAME = os.getenv('CHANNEL_NAME')
+BOT_NAME = os.getenv('hamster_kombat_bot')
+COUNT = os.getenv('7')
+REFER_ID = os.getenv('t.me/hamster_kOmbat_bot/start?startapp=kentId5606965691')
+DELAY_MIN = os.getenv('20')
+DELAY_MAX = os.getenv('60')
+CHANNEL_NAME = os.getenv('Hamster Kombat')
 JOIN_CHANNEL = None
 
 if __name__ == "__main__":
